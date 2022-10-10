@@ -52,7 +52,7 @@
             }
         </style>
 
-        <title>Ekiti Parapo · Home</title>
+        <title>Ekiti Parapo · Contact Us</title>
 
         <link href="" rel="icon" type="image/*">
     </head>
@@ -78,7 +78,7 @@
                             </div>
                             <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
                                 <ul class="nav navbar-nav">
-                                    <li class="active">
+                                    <li class="">
                                         <a href="/">
                                             Home
                                         </a>
@@ -103,7 +103,7 @@
                                             Notice Board
                                         </a>
                                     </li>
-                                    <li class="">
+                                    <li class="active">
                                         <a href="/contact-us">
                                             Contact Us
                                         </a>
@@ -118,221 +118,149 @@
                 </div>
             </div>
             <!-- end of header -->
+            <!-- breadcrumb -->
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li class="active">Contact Us</li>
+                </ol>
+            </div>
+            <!-- end of breadcrumb -->
             <!-- page content -->
             <div id="page-content">
-                <!-- Slider -->
-                <div id="homepage-carousel">
-                    <div class="container">
-                        <div class="homepage-carousel-wrapper">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-7">
-                                    <div class="image-carousel">
-                                        <!-- 1 -->
-                                        <div class="image-carousel-slide">
-                                            <img src="" alt="">
+                <div class="container">
+                    <div class="row">
+                        <!--MAIN Content-->
+                        <div class="col-md-8">
+                            <div id="page-main">
+                                <section id="contact">
+                                    <header>
+                                        <h1>Contact Us</h1>
+                                    </header>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <address>
+                                                <h3>Ekiti Parapo UK</h3>
+                                                <br>
+                                                <span>1, Address Street, Location</span>
+                                                <br>
+                                                <abbr title="Telephone Number">Telephone:</abbr> +44 123 456 7890
+                                                <br>
+                                                <abbr title="Email Address">Email:</abbr> <a href="mailto:mail@mail.co">mail@mail.co</a>
+                                            </address>
+                                            <div class="icons">
+                                                <a href="twitter.com" target="_blank">
+                                                    <i class="fa fa-twitter" style="color: #55acee"></i>
+                                                </a>
+                                                <a href="facebook.com" target="_blank">
+                                                    <i class="fa fa-facebook" style="color: #3b5998"></i>
+                                                </a>
+                                                <a href="linkedin.com" target="_blank">
+                                                    <i class="fa fa-linkedin" style="color: #007bb5"></i>
+                                                </a>
+                                                <a href="youtube.com" target="_blank">
+                                                    <i class="fa fa-youtube-play" style="color: #bb0000"></i>
+                                                </a>
+                                            </div><!-- /.icons -->
+                                            <hr>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium placeat sunt maxime, animi beatae odio facere ipsam voluptate nihil cumque aut nulla, ratione tenetur, porro commodi ipsa ea esse vel.
+                                            </p>
                                         </div>
-                                        <!-- 2 -->
-                                        <div class="image-carousel-slide">
-                                            <img src="" alt="">
+                                        <div class="col-md-6">
+                                            <div class="map-wrapper">
+                                                <iframe src="https://maps.google.com/maps?q=5%20sulby%20street%20uk&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="350" frameborder="0" style="border:0"></iframe>
+                                            </div>
                                         </div>
-                                        <!-- 3 -->
-                                        <div class="image-carousel-slide">
-                                            <img src="" alt="">
-                                        </div>
-                                    </div><!-- /.slider-image -->
-                                </div><!-- /.col-md-6 -->
-                                <div class="col-md-6 col-sm-5">
-                                    <div class="slider-content">
+                                    </div>
+                                </section>
+                                <section id="contact-form" class="clearfix">
+                                    <header>
+                                        <h2>Send us a message</h2>
+                                    </header>
+                                    <!-- form notice -->
+                                    <div class="alert alert-info alert-dismissible fade in" role="alert">
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+                                        Something went wrong, try refreshing and submitting the form again.
+                                    </div>
+                                    <!-- end of form notice -->
+                                    <form method="post" name="contact_us" class="contact-form" data-parsley-validate>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="input-group">
+                                                    <div class="controls">
+                                                        <label for="name">Your name</label>
+                                                        <input type="text" name="name" id="name" data-parsley-required="true">
+                                                    </div><!-- /.controls -->
+                                                </div><!-- /.control-group -->
+                                            </div><!-- /.col-md-4 -->
+                                            <div class="col-md-6">
+                                                <div class="input-group">
+                                                    <div class="controls">
+                                                        <label for="email">Your email</label>
+                                                        <input type="email" name="email" id="email" data-parsley-required="true">
+                                                    </div><!-- /.controls -->
+                                                </div><!-- /.control-group -->
+                                            </div><!-- /.col-md-4 -->
+                                        </div><!-- /.row -->
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <h1>
-                                                    Agba jo owo la fin soya
-                                                </h1>
-                                            </div><!-- /.col-md-12 -->
+                                                <div class="input-group">
+                                                    <div class="controls">
+                                                        <label for="message">Your message</label>
+                                                        <textarea name="message" id="message" style="resize: none" maxlength="666" data-parsley-required="true"></textarea>
+                                                    </div><!-- /.controls -->
+                                                </div><!-- /.control-group -->
+                                            </div><!-- /.col-md-4 -->
                                         </div><!-- /.row -->
-                                    </div><!-- /.slider-content -->
-                                </div><!-- /.col-md-6 -->
-                            </div><!-- /.row -->
-                            <div class="background"></div>
-                        </div><!-- /.slider-wrapper -->
-                        <div class="slider-inner"></div>
-                    </div><!-- /.container -->
-                </div>
-                <!-- end Slider -->
-
-                <!-- News, Events, About -->
-                <div class="block">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-12">
-                                <section id="about">
+                                        <div class="pull-right">
+                                            <input type="submit" class="btn btn-color-primary" id="submit" value="Send us a message">
+                                        </div><!-- /.form-actions -->
+                                    </form>
+                                </section>
+                            </div><!-- /#page-main -->
+                        </div><!-- /.col-md-8 -->
+            
+                        <!--SIDEBAR Content-->
+                        <div class="col-md-4">
+                            <div id="page-sidebar" class="sidebar">
+                                <aside class="news-small" id="news-small">
                                     <header>
-                                        <h2>About Us</h2>
-                                    </header>
-                                    <div class="section-content">
-                                        <img src="" alt="" class="add-margin">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quae, voluptas, quod, quibusdam, doloremque voluptates quidem voluptate quos nemo quia laborum fugiat ipsam voluptatum quas. Quisquam, quae, voluptas, quod, quibusdam, doloremque voluptates quidem voluptate quos nemo quia laborum fugiat ipsam voluptatum quas.
-                                        </p>
-                                    </div><!-- /.section-content -->
-                                </section><!-- /.about -->
-                            </div><!-- /.col-md-4 -->
-                            <div class="col-md-4 col-sm-6">
-                                <section class="news-small" id="news-small">
-                                    <header>
-                                        <h2>News</h2>
+                                        <h2>
+                                            Latest News
+                                        </h2>
                                     </header>
                                     <div class="section-content">
                                         <!-- 1 -->
                                         <article>
                                             <figure class="date">
-                                                <i class="fa fa-calendar"></i> 04/25/2022
+                                                <i class="fa fa-calendar"></i>
+                                                04/25/2022
                                             </figure>
                                             <header>
                                                 <a href="/news/news_id">The news title here...</a>
                                             </header>
-                                        </article>
+                                        </article><!-- /article -->
                                         <!-- 2 -->
                                         <article>
                                             <figure class="date">
-                                                <i class="fa fa-calendar"></i> 04/25/2022
+                                                <i class="fa fa-calendar"></i>
+                                                04/25/2022
                                             </figure>
                                             <header>
                                                 <a href="/news/news_id">The news title here...</a>
                                             </header>
-                                        </article>
+                                        </article><!-- /article -->
                                     </div><!-- /.section-content -->
-                                    <!-- <a href="index.html" class="read-more stick-to-bottom">All News</a> -->
-                                </section><!-- /.news-small -->
-                            </div><!-- /.col-md-4 -->
-                            <div class="col-md-4 col-sm-6">
-                                <section class="events small" id="events-small">
-                                    <header>
-                                        <h2>Events</h2>
-                                    </header>
-                                    <div class="section-content">
-                                        <!-- 1 -->
-                                        <article class="event nearest">
-                                            <figure class="date">
-                                                <div class="month">AUG</div>
-                                                <div class="day">15</div>
-                                            </figure>
-                                            <aside>
-                                                <header>
-                                                    <a href="/event/event_id">
-                                                        Website Launch
-                                                    </a>
-                                                </header>
-                                                <div class="additional-info">#website-launch</div>
-                                            </aside>
-                                        </article>
-                                        <!-- 2 -->
-                                        <article class="event nearest">
-                                            <figure class="date">
-                                                <div class="month">AUG</div>
-                                                <div class="day">15</div>
-                                            </figure>
-                                            <aside>
-                                                <header>
-                                                    <a href="/event/event_id">
-                                                        Website Launch
-                                                    </a>
-                                                </header>
-                                                <div class="additional-info">#website-launch</div>
-                                            </aside>
-                                        </article>
-                                    </div><!-- /.section-content -->
-                                </section><!-- /.events-small -->
-                            </div><!-- /.col-md-4 -->
-                        </div><!-- /.row -->
-                    </div><!-- /.container -->
-                </div>
-                <!-- end News, Events, About -->
-
-                <!-- Our Excos, Gallery -->
-                <div class="block">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-4">
-                                <section id="our-excos">
-                                    <header>
-                                        <h2>Our Excos</h2>
-                                    </header>
-                                    <div class="section-content">
-                                        <div class="professors">
-                                            <!-- 1 -->
-                                            <article class="professor-thumbnail">
-                                                <figure class="professor-image">
-                                                    <a href="exco/exco_id">
-                                                            <img style="width: 80px !important" src="" alt="">
-                                                    </a>
-                                                </figure>
-                                                <aside>
-                                                    <header>
-                                                        <a href="exco/exco_id">
-                                                            Taye Aderibigbe
-                                                        </a>
-                                                        <div class="divider"></div>
-                                                        <figure class="professor-description">Financial Sec.</figure>
-                                                    </header>
-                                                    <a href="exco/exco_id" class="show-profile">
-                                                        View Profile
-                                                    </a>
-                                                </aside>
-                                            </article>
-                                            <!-- 2 -->
-                                            <article class="professor-thumbnail">
-                                                <figure class="professor-image">
-                                                    <a href="exco/exco_id">
-                                                            <img style="width: 80px !important" src="" alt="">
-                                                    </a>
-                                                </figure>
-                                                <aside>
-                                                    <header>
-                                                        <a href="exco/exco_id">
-                                                            Taye Aderibigbe
-                                                        </a>
-                                                        <div class="divider"></div>
-                                                        <figure class="professor-description">Financial Sec.</figure>
-                                                    </header>
-                                                    <a href="exco/exco_id" class="show-profile">
-                                                        View Profile
-                                                    </a>
-                                                </aside>
-                                            </article>
-                                        </div><!-- /.exco -->
-                                    </div><!-- /.section-content -->
-                                </section><!-- /.our-exco -->
-                            </div><!-- /.col-md-4 -->
-
-                            <div class="col-md-8 col-sm-8">
-                                <section id="gallery">
-                                    <header>
-                                        <h2>Gallery</h2>
-                                    </header>
-                                    <div class="section-content">
-                                        <ul class="gallery-list">
-                                            <!-- 1 -->
-                                            <li>
-                                                <a href="gallery/image_link" class="image-popup">
-                                                    <img src="" alt="">
-                                                </a>
-                                            </li>
-                                            <!-- 2 -->
-                                            <li>
-                                                <a href="gallery/image_link" class="image-popup">
-                                                    <img src="" alt="">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div><!-- /.section-content -->
-                                </section><!-- /.gallery -->
-                            </div><!-- /.col-md-4 -->
-
-                        </div><!-- /.row -->
-                    </div><!-- /.container -->
-                </div>
-                <!-- end Our Excos, Gallery -->
+                                    <!-- <a href="blog-detail.html" class="read-more">All News</a> -->
+                                </aside><!-- /.news-small -->
+                            </div><!-- /#sidebar -->
+                        </div><!-- /.col-md-4 -->
+                        <!--end of SIDEBAR Content-->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
             </div>
             <!-- end of page content -->
             <!-- footer -->

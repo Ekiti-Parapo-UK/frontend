@@ -52,7 +52,7 @@
             }
         </style>
 
-        <title>Ekiti Parapo · Home</title>
+        <title>Ekiti Parapo · News</title>
 
         <link href="" rel="icon" type="image/*">
     </head>
@@ -78,7 +78,7 @@
                             </div>
                             <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
                                 <ul class="nav navbar-nav">
-                                    <li class="active">
+                                    <li class="">
                                         <a href="/">
                                             Home
                                         </a>
@@ -88,7 +88,7 @@
                                             Events
                                         </a>
                                     </li>
-                                    <li class="">
+                                    <li class="active">
                                         <a href="/news">
                                             News
                                         </a>
@@ -118,221 +118,140 @@
                 </div>
             </div>
             <!-- end of header -->
+            <!-- breadcrumb -->
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="active">
+                        News
+                    </li>
+                </ol>
+            </div>
+            <!-- end of breadcrumb -->
             <!-- page content -->
             <div id="page-content">
-                <!-- Slider -->
-                <div id="homepage-carousel">
-                    <div class="container">
-                        <div class="homepage-carousel-wrapper">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-7">
-                                    <div class="image-carousel">
+                <div class="container">
+                    <div class="row">
+                        <!--MAIN Content-->
+                        <div class="col-md-8">
+                            <div id="page-main">
+                                <section class="blog-listing" id="blog-listing">
+                                    <header>
+                                        <h1>News</h1>
+                                    </header>
+                                    <div class="row">
                                         <!-- 1 -->
-                                        <div class="image-carousel-slide">
-                                            <img src="" alt="">
+                                        <div class="col-md-6 col-sm-6">
+                                            <article class="blog-listing-post">
+                                                <figure class="blog-thumbnail">
+                                                    <figure class="blog-meta">
+                                                        <span class="fa fa-clock-o"></span>
+                                                            04/25/2022
+                                                    </figure>
+                                                    <div class="image-wrapper">
+                                                        <a href="/news/news_id">
+                                                            <img src="">
+                                                        </a>
+                                                    </div>
+                                                </figure>
+                                                <aside>
+                                                    <header>
+                                                        <a href="/news/news_id">
+                                                            <h3>The news title here</h3>
+                                                        </a>
+                                                    </header>
+                                                    <div class="description">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas itaque nobis voluptatibus, nesciunt dolorem temporibus. Temporibus a suscipit explicabo similique atque perspiciatis. Fuga, amet autem velit quisquam magni hic vitae.
+                                                        </p>
+                                                    </div>
+                                                    <a href="/news/news_id" class="read-more stick-to-bottom">Read More</a>
+                                                </aside>
+                                            </article>
                                         </div>
                                         <!-- 2 -->
-                                        <div class="image-carousel-slide">
-                                            <img src="" alt="">
+                                        <div class="col-md-6 col-sm-6">
+                                            <article class="blog-listing-post">
+                                                <figure class="blog-thumbnail">
+                                                    <figure class="blog-meta">
+                                                        <span class="fa fa-clock-o"></span>
+                                                            04/25/2022
+                                                    </figure>
+                                                    <div class="image-wrapper">
+                                                        <a href="/news/news_id">
+                                                            <img src="">
+                                                        </a>
+                                                    </div>
+                                                </figure>
+                                                <aside>
+                                                    <header>
+                                                        <a href="/news/news_id">
+                                                            <h3>The news title here</h3>
+                                                        </a>
+                                                    </header>
+                                                    <div class="description">
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas itaque nobis voluptatibus, nesciunt dolorem temporibus. Temporibus a suscipit explicabo similique atque perspiciatis. Fuga, amet autem velit quisquam magni hic vitae.
+                                                        </p>
+                                                    </div>
+                                                    <a href="/news/news_id" class="read-more stick-to-bottom">Read More</a>
+                                                </aside>
+                                            </article>
                                         </div>
-                                        <!-- 3 -->
-                                        <div class="image-carousel-slide">
-                                            <img src="" alt="">
-                                        </div>
-                                    </div><!-- /.slider-image -->
-                                </div><!-- /.col-md-6 -->
-                                <div class="col-md-6 col-sm-5">
-                                    <div class="slider-content">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <h1>
-                                                    Agba jo owo la fin soya
-                                                </h1>
-                                            </div><!-- /.col-md-12 -->
-                                        </div><!-- /.row -->
-                                    </div><!-- /.slider-content -->
-                                </div><!-- /.col-md-6 -->
-                            </div><!-- /.row -->
-                            <div class="background"></div>
-                        </div><!-- /.slider-wrapper -->
-                        <div class="slider-inner"></div>
-                    </div><!-- /.container -->
-                </div>
-                <!-- end Slider -->
-
-                <!-- News, Events, About -->
-                <div class="block">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-12">
-                                <section id="about">
+                                    </div>
+                                </section>
+                                <div class="center">
+                                    <ul class="pagination">
+                                        <li>
+                                            <a class="active" style="color: #FFF">1</a>
+                                            <a href="/news" data-ci-pagination-page="2">2</a>
+                                            <a href="/news" data-ci-pagination-page="2" rel="next">Next</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!--SIDEBAR Content-->
+                        <div class="col-md-4">
+                            <div id="page-sidebar" class="sidebar">
+                                <aside class="news-small" id="news-small">
                                     <header>
-                                        <h2>About Us</h2>
-                                    </header>
-                                    <div class="section-content">
-                                        <img src="" alt="" class="add-margin">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quae, voluptas, quod, quibusdam, doloremque voluptates quidem voluptate quos nemo quia laborum fugiat ipsam voluptatum quas. Quisquam, quae, voluptas, quod, quibusdam, doloremque voluptates quidem voluptate quos nemo quia laborum fugiat ipsam voluptatum quas.
-                                        </p>
-                                    </div><!-- /.section-content -->
-                                </section><!-- /.about -->
-                            </div><!-- /.col-md-4 -->
-                            <div class="col-md-4 col-sm-6">
-                                <section class="news-small" id="news-small">
-                                    <header>
-                                        <h2>News</h2>
+                                        <h2>
+                                            Latest News
+                                        </h2>
                                     </header>
                                     <div class="section-content">
                                         <!-- 1 -->
                                         <article>
                                             <figure class="date">
-                                                <i class="fa fa-calendar"></i> 04/25/2022
+                                                <i class="fa fa-calendar"></i>
+                                                04/25/2022
                                             </figure>
                                             <header>
                                                 <a href="/news/news_id">The news title here...</a>
                                             </header>
-                                        </article>
+                                        </article><!-- /article -->
                                         <!-- 2 -->
                                         <article>
                                             <figure class="date">
-                                                <i class="fa fa-calendar"></i> 04/25/2022
+                                                <i class="fa fa-calendar"></i>
+                                                04/25/2022
                                             </figure>
                                             <header>
                                                 <a href="/news/news_id">The news title here...</a>
                                             </header>
-                                        </article>
+                                        </article><!-- /article -->
                                     </div><!-- /.section-content -->
-                                    <!-- <a href="index.html" class="read-more stick-to-bottom">All News</a> -->
-                                </section><!-- /.news-small -->
-                            </div><!-- /.col-md-4 -->
-                            <div class="col-md-4 col-sm-6">
-                                <section class="events small" id="events-small">
-                                    <header>
-                                        <h2>Events</h2>
-                                    </header>
-                                    <div class="section-content">
-                                        <!-- 1 -->
-                                        <article class="event nearest">
-                                            <figure class="date">
-                                                <div class="month">AUG</div>
-                                                <div class="day">15</div>
-                                            </figure>
-                                            <aside>
-                                                <header>
-                                                    <a href="/event/event_id">
-                                                        Website Launch
-                                                    </a>
-                                                </header>
-                                                <div class="additional-info">#website-launch</div>
-                                            </aside>
-                                        </article>
-                                        <!-- 2 -->
-                                        <article class="event nearest">
-                                            <figure class="date">
-                                                <div class="month">AUG</div>
-                                                <div class="day">15</div>
-                                            </figure>
-                                            <aside>
-                                                <header>
-                                                    <a href="/event/event_id">
-                                                        Website Launch
-                                                    </a>
-                                                </header>
-                                                <div class="additional-info">#website-launch</div>
-                                            </aside>
-                                        </article>
-                                    </div><!-- /.section-content -->
-                                </section><!-- /.events-small -->
-                            </div><!-- /.col-md-4 -->
-                        </div><!-- /.row -->
-                    </div><!-- /.container -->
+                                    <!-- <a href="blog-detail.html" class="read-more">All News</a> -->
+                                </aside><!-- /.news-small -->
+                            </div><!-- /#sidebar -->
+                        </div><!-- /.col-md-4 -->
+                        <!--end of SIDEBAR Content-->
+                    </div>
                 </div>
-                <!-- end News, Events, About -->
-
-                <!-- Our Excos, Gallery -->
-                <div class="block">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-4">
-                                <section id="our-excos">
-                                    <header>
-                                        <h2>Our Excos</h2>
-                                    </header>
-                                    <div class="section-content">
-                                        <div class="professors">
-                                            <!-- 1 -->
-                                            <article class="professor-thumbnail">
-                                                <figure class="professor-image">
-                                                    <a href="exco/exco_id">
-                                                            <img style="width: 80px !important" src="" alt="">
-                                                    </a>
-                                                </figure>
-                                                <aside>
-                                                    <header>
-                                                        <a href="exco/exco_id">
-                                                            Taye Aderibigbe
-                                                        </a>
-                                                        <div class="divider"></div>
-                                                        <figure class="professor-description">Financial Sec.</figure>
-                                                    </header>
-                                                    <a href="exco/exco_id" class="show-profile">
-                                                        View Profile
-                                                    </a>
-                                                </aside>
-                                            </article>
-                                            <!-- 2 -->
-                                            <article class="professor-thumbnail">
-                                                <figure class="professor-image">
-                                                    <a href="exco/exco_id">
-                                                            <img style="width: 80px !important" src="" alt="">
-                                                    </a>
-                                                </figure>
-                                                <aside>
-                                                    <header>
-                                                        <a href="exco/exco_id">
-                                                            Taye Aderibigbe
-                                                        </a>
-                                                        <div class="divider"></div>
-                                                        <figure class="professor-description">Financial Sec.</figure>
-                                                    </header>
-                                                    <a href="exco/exco_id" class="show-profile">
-                                                        View Profile
-                                                    </a>
-                                                </aside>
-                                            </article>
-                                        </div><!-- /.exco -->
-                                    </div><!-- /.section-content -->
-                                </section><!-- /.our-exco -->
-                            </div><!-- /.col-md-4 -->
-
-                            <div class="col-md-8 col-sm-8">
-                                <section id="gallery">
-                                    <header>
-                                        <h2>Gallery</h2>
-                                    </header>
-                                    <div class="section-content">
-                                        <ul class="gallery-list">
-                                            <!-- 1 -->
-                                            <li>
-                                                <a href="gallery/image_link" class="image-popup">
-                                                    <img src="" alt="">
-                                                </a>
-                                            </li>
-                                            <!-- 2 -->
-                                            <li>
-                                                <a href="gallery/image_link" class="image-popup">
-                                                    <img src="" alt="">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div><!-- /.section-content -->
-                                </section><!-- /.gallery -->
-                            </div><!-- /.col-md-4 -->
-
-                        </div><!-- /.row -->
-                    </div><!-- /.container -->
-                </div>
-                <!-- end Our Excos, Gallery -->
             </div>
             <!-- end of page content -->
             <!-- footer -->
