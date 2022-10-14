@@ -158,6 +158,10 @@ ul.list-links a:hover {
   A
 ****/
 
+.about-img-w {
+    max-width: 360px;
+}
+
 .author-block {
     background-color: whitesmoke;
     clear: both;
@@ -528,6 +532,10 @@ ul.list-links a:hover {
 
 .calendar .fc-content .fc-event-inner {
     margin-bottom: 20px;
+}
+
+.carousel-image-w {
+    max-width: 555px;
 }
 
 .link-calendar {
@@ -1319,6 +1327,11 @@ ul.list-links a:hover {
     background-color: #ea6645;
 }
 
+.events-img-size {
+    max-width: 236px;
+    max-height: 236px;
+}
+
 
 /****
   F
@@ -1386,6 +1399,10 @@ ul.list-links a:hover {
 .featured-course .description .course-meta .fa {
     color: #252525;
     margin-right: 5px;
+}
+
+.footer-logo-w {
+    max-width: 179px;
 }
 
 
