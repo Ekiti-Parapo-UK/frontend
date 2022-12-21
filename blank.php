@@ -6,12 +6,12 @@
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="StudyPress | Education & Courses HTML Template" />
-<meta name="keywords" content="academy, course, education, education html theme, elearning, learning," />
-<meta name="author" content="ThemeMascot" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="ezzzy" />
 
 <!-- Page Title -->
-<title>StudyPress | Education & Courses HTML Template</title>
+<title>Blank | Blank...</title>
 
 <!-- Favicon and Touch Icons -->
 <link href="images/favicon.png" rel="shortcut icon" type="image/png">
